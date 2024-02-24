@@ -13,12 +13,22 @@ def main():
     # Input text box for user input
     user_input = st.text_area("Enter Comment:")
 
+    # Initialize prediction results variables
+    out_tox, out_sev, out_obs, out_ins, out_thr, out_ide = 0, 0, 0, 0, 0, 0
+
     # Predict button
     if st.button("Predict"):
         if user_input:
             data = [user_input]
 
             # Rest of the prediction code
+
+            out_tox = round(pred_tox[0], 2)
+            out_sev = round(pred_sev[0], 2)
+            out_obs = round(pred_obs[0], 2)
+            out_ins = round(pred_ins[0], 2)
+            out_thr = round(pred_thr[0], 2)
+            out_ide = round(pred_ide[0], 2)
 
             st.write("Prob (Toxic):", out_tox)
             st.write("Prob (Severe Toxic):", out_sev)
