@@ -46,15 +46,15 @@ To use the Comment Toxicity Prediction App, follow these steps:
 
 4. Enter a comment in the input field, and the app will provide the predicted probabilities for each toxicity category.
 
-##Sample output:
+## Sample output:
 
-###Good Comment
+### Good Comment
 .
 .
 ![good comment](https://github.com/adnanpatel878/Comment-Toxicity-Prediction-App/assets/105789120/9f2c5e63-189b-4d4c-a224-307e983dd877)
 
 
-###Bad Comment
+### Bad Comment
 .
 .
 ![bad comment](https://github.com/adnanpatel878/Comment-Toxicity-Prediction-App/assets/105789120/543e1d71-6cbc-48d9-8ddc-df36446201de)
