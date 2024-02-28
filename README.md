@@ -30,21 +30,26 @@ The model categorizes comments into the following toxicity levels:
 
 To use the Comment Toxicity Prediction App, follow these steps:
 
-1. Install the required dependencies:
+1. **Clone Repository:**
+   ```bash
+   git clone https://github.com/your-username/Comment-Toxicity-Prediction-Model.git
+   cd Comment-Toxicity-Prediction-Model
+   ```
 
+2. **Install Dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
 
-2. Run the Streamlit app:
-
+3. **Run the Web App:**
    ```bash
    streamlit run app.py
    ```
 
-3. Open the provided URL in your web browser to access the app.
+4. **Access the App:**
+   Open your web browser and navigate to `http://localhost:8501` to interact with the Comment-Toxicity-Prediction-Model.
 
-4. Enter a comment in the input field, and the app will provide the predicted probabilities for each toxicity category.
+5. Enter a comment in the input field, and the app will provide the predicted probabilities for each toxicity category.
 
 ## Sample output:
 
